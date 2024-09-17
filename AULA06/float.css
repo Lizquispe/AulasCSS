@@ -1,0 +1,11 @@
+*{
+    margin: 3em;
+}
+.container{
+    border:solid 3px rgb(103, 103, 170);
+    overflow: auto;
+}
+img{
+    border:solid 3px rgb(0, 255, 98);
+    float:right;
+}

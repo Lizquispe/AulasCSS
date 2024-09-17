@@ -1,0 +1,22 @@
+*{
+    font-size: 20px;
+    margin: 0px;
+}
+.box1{ 
+    background-color: blueviolet;
+    width: 250px;/* largura do elemento*/
+    height: 250px;/* altura do elemento*/
+}
+
+.box2{
+    background-color: green;
+    width: 250px;/* largura */
+    height: 250px;/* altura */
+    
+
+}
+.box3{
+    background-color: cadetblue;
+    width: 50vmin;/* 1200vmim e o dobro do px  600px*/
+    height: 50vmax;/* 1920  384px*/
+}

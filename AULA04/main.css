@@ -1,0 +1,23 @@
+.titulo{
+    /*   .  para class */
+    color: aqua;
+}
+.italico{
+    font-style: italic;
+}
+.sombra{
+    filter: drop-shadow(5px 5px 5px rgb(255, 0, 0));
+}
+#alo{
+    /* # para id */
+    color: aqua;
+}
+#ola{
+    color: blueviolet;
+}
+#eai{
+    color: brown;
+}
+#paragrafos{
+    background-color: blue;
+}

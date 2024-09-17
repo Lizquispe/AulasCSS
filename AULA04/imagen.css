@@ -1,0 +1,14 @@
+body{
+    background-image: url(praia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: black;
+}
+figure{
+    border: 20px solid black;
+}
+img{
+    border-width: 500px;
+}
