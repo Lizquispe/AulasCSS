@@ -1,0 +1,44 @@
+.container{
+    height: 600px;
+    width: 800px;
+    margin: 25px auto;
+    border: dotted 1px purple;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);/* Numero de colunas e tamanho */
+    grid-template-rows:repeat(5,1fr);
+    grid-template-areas:
+    "caixa1 caixa1 caixa1 caixa1 caixa1"
+    "caixa2 caixa3 caixa3 caixa3 caixa4"
+    "caixa2 caixa3 caixa3 caixa3 caixa4"
+    "caixa5 caixa5 caixa6 caixa6 caixa6"
+    "caixa7 caixa7 caixa7 caixa7 caixa7"
+    ;
+}
+.box1{
+    grid-area:caixa1;
+    background-color: rgb(212, 255, 0);
+}
+.box2{
+    grid-area:caixa2;
+    background-color: rgb(224, 144, 78);
+}
+.box3{
+    grid-area:caixa3;
+    background-color: rgb(117, 195, 156);
+}
+.box4{  
+    grid-area:caixa4;
+    background-color:  rgb(224, 144, 78);
+}
+.box5{
+    grid-area:caixa5;
+    background-color: rgb(81, 124, 204);
+}
+.box6{
+    grid-area:caixa6;
+    background-color: rgb(131, 138, 133);
+}
+.box7{
+    grid-area:caixa7;
+    background-color: rgb(20, 66, 40);
+}
